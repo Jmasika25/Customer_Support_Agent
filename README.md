@@ -6,20 +6,30 @@ The Customer Support Agent is an assistant build to handle issues related to tec
 ## Technologies used
 
 Python
+
 LangGraph (for workflow management)
+
 Langchain
+
 Groq API (LLM model)
+
 Gradio (for UI)
+
 dotenv (for environment variable management)
 
 ## How it works
 
 User submits a query: Categorization (Technical, Billing, General)
+
 Sentiment Analysis: Determines Positive, Neutral, or Negative sentiment
+
 Routing:
-        If Negative: Escalated to a human agent
-        If Technical: Responds with a technical solution
-        If Billing: Provides billing-related assistance
-        If General: Answers general inquiries
+If Negative: Escalated to a human agent
+        
+If Technical: Responds with a technical solution
+        
+If Billing: Provides billing-related assistance
+        
+If General: Answers general inquiries
 
 
